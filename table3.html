@@ -1,14 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fondo-gris-oscuro {
+            background-color: darkgray;
+            color: white; 
+        }
+    </style>
+</head>
+
 <body>
-    <table border="2">
+    <table border="2" class="fondo-gris-oscuro" cellpadding="5">
     <tr>
-        <td colspan="2">cars</td>
+        <td colspan="2">Caras </td>
     </tr>
     <tr>
-        <th>brand</th>
-        <th>reference</th>
+        <tr><th>Brand</th><th>Reference</th></tr>
+        <td rowspan="5">Mazda</td>
     </tr>
     <tr>
-        <td rowspan="4">Mazda</td>
+        <td>CX-3</td>
     </tr>
     <tr>
         <td>CX-5</td>
@@ -18,19 +32,20 @@
     </tr>
     <tr>
         <td>323</td>
-    </tr>
-    <tr>
-        <td rowspan="2">Renault</td>
-    </tr>
-    <tr>
-        <td>Sandero</td>
-    </tr>
-    <tr>
-        <td></td><td>Kwid</td>
-    </tr>
-    <tr>
-        <td>Chevrolet</td><td>Aveo</td>
-    </tr>
-    
+        <tr>
+            <tr><th>Brand</th><th>Reference</th></tr>
+            <td rowspan="2">Renault</td>
+        </tr>
+        <tr>
+            <td>Sandero</td>
+            <tr>
+                <tr><th>Brand</th><th>Reference</th></tr>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>Kwid</td>
+                <tr>
+                    <td>Chevrolet</td><td>Aveo</td>
+                </tr>
 </table>
 </body>
