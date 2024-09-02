@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frutas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            text-align: left; /* Asegura que el contenido esté alineado a la izquierda */
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 600px;
+            margin: 0; /* Elimina el margen alrededor del contenedor */
+            padding: 20px; /* Opcional: Añade un poco de espacio alrededor del contenedor */
+        }
+
+        .item {
+            border: 5px solid;
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .item img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+
+        .label {
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            padding: 10px 0;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .manzana {
+            border-color: #83b53e; /* Verde */
+            background-color: #83b53e;
+        }
+
+        .melocoton {
+            border-color: #ffcc80; /* Naranja claro */
+            background-color: #ffcc80;
+        }
+
+        .pera {
+            border-color: #84bf66; /* Verde claro */
+            background-color: #84bf66;
+        }
+
+        .platano {
+            border-color: #f79788; /* Rojo claro */
+            background-color: #f79788;
+        }
+
+        .naranja {
+            border-color: #ffb100; /* Naranja */
+            background-color: #ffb100;
+        }
+
+        .limon {
+            border-color: #d7e04c; /* Amarillo */
+            background-color: #d7e04c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item manzana">
+            <img src="img/1.jpg" alt="Manzana">
+            <div class="label">La Manzana</div>
+        </div>
+        <div class="item melocoton">
+            <img src="img/2.jpg" alt="Melocotón">
+            <div class="label">El Melocotón</div>
+        </div>
+        <div class="item pera">
+            <img src="img/3.webp" alt="Pera">
+            <div class="label">La Pera</div>
+        </div>
+        <div class="item platano">
+            <img src="img/4.jpg" alt="Plátano">
+            <div class="label">El Plátano</div>
+        </div>
+        <div class="item naranja">
+            <img src="img/5.jpg" alt="Naranja">
+            <div class="label">La Naranja</div>
+        </div>
+        <div class="item limon">
+            <img src="img/6.jpg" alt="Limón">
+            <div class="label">El Limón</div>
+        </div>
+    </div>
+</body>
+</html>
